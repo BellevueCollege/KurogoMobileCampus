@@ -3,68 +3,35 @@
 <Document>
 	<name>BellevueCollege.kml</name>
 	<open>1</open>
-	<Style id="sn_toilets">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_star0">
+	<StyleMap id="msn_motorcycling0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_star1</styleUrl>
+			<styleUrl>#sn_motorcycling</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_star1</styleUrl>
+			<styleUrl>#sh_motorcycling0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin0">
+	<Style id="sh_wheel_chair_accessible2">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>0.827273</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<PolyStyle>
-			<color>4cdcdcdc</color>
-			<outline>0</outline>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_gas_stations">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_parking_lot0">
+	<StyleMap id="msn_wheel_chair_accessible2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_parking_lot</styleUrl>
+			<styleUrl>#sn_wheel_chair_accessible1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_parking_lot</styleUrl>
+			<styleUrl>#sh_wheel_chair_accessible</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_parking_lot">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_play">
 		<Pair>
 			<key>normal</key>
@@ -75,88 +42,131 @@
 			<styleUrl>#sh_play</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_gas_stations0">
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_man0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_man</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_man1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_parking_lot1">
 		<IconStyle>
-			<scale>1.4</scale>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_gas_stations">
+		<IconStyle>
+			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_dollar">
+	<Style id="sh_star">
+		<IconStyle>
+			<scale>0.709091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_star">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_parking_lot">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_dollar</styleUrl>
+			<styleUrl>#sn_parking_lot0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_dollar</styleUrl>
+			<styleUrl>#sh_parking_lot2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_coffee">
+	<Style id="sh_star1">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_toilets0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_coffee</styleUrl>
+			<styleUrl>#sn_toilets3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_coffee</styleUrl>
+			<styleUrl>#sh_toilets3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_woman">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_play">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_man">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_red-circle">
+	<StyleMap id="msn_woman1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-circle0</styleUrl>
+			<styleUrl>#sn_woman</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-circle0</styleUrl>
+			<styleUrl>#sh_woman1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_wheel_chair_accessible">
+	<StyleMap id="msn_star">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_star0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_star2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_star2">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>1.4</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_dollar">
+	<StyleMap id="msn_Elevator-Icon-0820152848">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_Elevator-Icon-0820152848</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_Elevator-Icon-0820152848</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_gas_stations0">
 		<IconStyle>
-			<scale>0.583333</scale>
+			<scale>1.4</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dollar.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -170,70 +180,66 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_toilets0">
+	<Style id="sn_parking_lot2">
 		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_parking_lot1">
-		<IconStyle>
-			<scale>1.2</scale>
+			<scale>0.6</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_dining">
+	<Style id="sh_Elevator-Icon-0820152848">
 		<IconStyle>
-			<scale>0.7</scale>
+			<scale>1.18182</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+				<href>http://s.bellevuecollege.edu/Kurogo-dev/kml/Elevator-Icon.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_toilets4">
+		<IconStyle>
+			<scale>0.709091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_toilets">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_toilets</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_toilets2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_woman">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_woman0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_woman</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_woman">
+	<Style id="sh_toilets3">
 		<IconStyle>
 			<scale>0.827273</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
 			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sn_motorcycling0">
+	<StyleMap id="msn_coffee">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_coffee</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_coffee</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wheel_chair_accessible0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_play">
 		<IconStyle>
-			<scale>1.2</scale>
+			<scale>0.7</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/motorcycling.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -248,229 +254,6 @@
 			<styleUrl>#sh_star</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_star2">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_star0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_woman0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_woman1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_woman0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_woman0">
-		<IconStyle>
-			<scale>0.827273</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_wheel_chair_accessible">
-		<IconStyle>
-			<scale>0.583333</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_toilets">
-		<IconStyle>
-			<scale>0.827273</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_toilets0">
-		<IconStyle>
-			<scale>0.709091</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_dining">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_dining</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_dining</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_gas_stations">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_gas_stations0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_gas_stations0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_parking_lot1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_parking_lot1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_parking_lot1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<PolyStyle>
-			<color>4cdcdcdc</color>
-			<outline>0</outline>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_man">
-		<IconStyle>
-			<scale>0.827273</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_coffee">
-		<IconStyle>
-			<scale>0.6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_parking_lot">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_parking_lot0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_parking_lot2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_star">
-		<IconStyle>
-			<scale>0.709091</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_red-circle00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_motorcycling">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/motorcycling.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_dining">
-		<IconStyle>
-			<scale>0.6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_man0">
-		<IconStyle>
-			<scale>0.827273</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-circle0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sn_bus">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -479,159 +262,6 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-	</Style>
-	<StyleMap id="msn_toilets0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_toilets3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_toilets3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_motorcycling">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/motorcycling.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_wheel_chair_accessible">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_bus">
-		<IconStyle>
-			<scale>0.827273</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_toilets1">
-		<IconStyle>
-			<scale>0.816667</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_star1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_star</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_star0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_star1">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_woman0">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_coffee">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<PolyStyle>
-			<color>4cdcdcdc</color>
-			<outline>0</outline>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_man0">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_man1">
-		<IconStyle>
-			<scale>0.816667</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_parking_lot0">
 		<IconStyle>
@@ -642,35 +272,15 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_gas_stations0">
+	<Style id="sh_man1">
 		<IconStyle>
-			<scale>1.2</scale>
+			<scale>0.816667</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_star1">
-		<IconStyle>
-			<scale>0.6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_toilets1">
-		<IconStyle>
-			<scale>0.6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin00">
+	<Style id="sn_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -683,14 +293,62 @@
 			<outline>0</outline>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_star">
+	<StyleMap id="msn_man1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_star0</styleUrl>
+			<styleUrl>#sn_man1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_star2</styleUrl>
+			<styleUrl>#sh_man0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_parking_lot2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parking_lot2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parking_lot0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_star1">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_motorcycling">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_motorcycling0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_motorcycling</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-circle00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_toilets2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_toilets4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_toilets4</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_red-circle0">
@@ -707,142 +365,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<PolyStyle>
-			<color>4cd9d9d9</color>
-			<outline>0</outline>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_toilets2">
-		<IconStyle>
-			<scale>0.816667</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_toilets1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_toilets2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_toilets</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_parking_lot2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_parking_lot2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_parking_lot0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_toilets2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_toilets4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_toilets4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_toilets3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_toilets0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_toilets1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_toilets3">
-		<IconStyle>
-			<scale>0.827273</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_parking_lot1">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_motorcycling0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/motorcycling.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<PolyStyle>
-			<color>4cd9d9d9</color>
-			<outline>0</outline>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_woman1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_woman</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_woman1</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_toilets4">
 		<Pair>
 			<key>normal</key>
@@ -853,93 +375,9 @@
 			<styleUrl>#sh_toilets0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_dollar">
+	<Style id="sn_red-circle00">
 		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dollar.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_star">
-		<IconStyle>
-			<scale>0.6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_man">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_man0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_man</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_gas_stations">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_bus">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_toilets2">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_man0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_man</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_man1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_parking_lot2">
-		<IconStyle>
-			<scale>0.709091</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_star0">
-		<IconStyle>
-			<scale>0.709091</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
 			</Icon>
@@ -951,7 +389,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin2">
+	<Style id="sh_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -963,17 +401,6 @@
 			<color>4cdcdcdc</color>
 			<outline>0</outline>
 		</PolyStyle>
-	</Style>
-	<Style id="sh_toilets4">
-		<IconStyle>
-			<scale>0.709091</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_red-circle00">
 		<IconStyle>
@@ -989,35 +416,139 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_play">
+	<StyleMap id="msn_bus">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_toilets1">
 		<IconStyle>
-			<scale>0.6</scale>
+			<scale>0.816667</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_man1">
+	<Style id="sh_man">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_toilets4">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_man1">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_toilets1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_man1</styleUrl>
+			<styleUrl>#sn_toilets2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_man0</styleUrl>
+			<styleUrl>#sh_toilets</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_motorcycling0">
+	<Style id="sh_red-circle0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wheel_chair_accessible">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_motorcycling</styleUrl>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_motorcycling0</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_motorcycling0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/motorcycling.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_man0">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_wheel_chair_accessible1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_gas_stations">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_gas_stations0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_gas_stations0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_toilets">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_parking_lot">
 		<IconStyle>
 			<scale>0.590909</scale>
@@ -1027,35 +558,166 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_motorcycling">
+	<StyleMap id="msn_dollar">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_motorcycling0</styleUrl>
+			<styleUrl>#sn_dollar</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_motorcycling</styleUrl>
+			<styleUrl>#sh_dollar</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_woman1">
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>4cd9d9d9</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_star0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_toilets3">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
 			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dollar">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dollar.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_toilets">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>4cdcdcdc</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_woman1">
+	<Style id="sh_wheel_chair_accessible1">
 		<IconStyle>
-			<scale>0.816667</scale>
+			<scale>0.583333</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
 			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
+	</Style>
+	<Style id="sh_wheel_chair_accessible3">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>4cd9d9d9</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_wheel_chair_accessible1">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_woman">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_woman0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_woman</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_coffee">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin00">
 		<IconStyle>
@@ -1080,19 +742,9 @@
 			<styleUrl>#sh_gas_stations</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin0">
+	<Style id="sh_ylw-pushpin0">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -1103,7 +755,195 @@
 			<outline>0</outline>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_toilets3">
+	<Style id="sn_coffee">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_parking_lot1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parking_lot1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parking_lot1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wheel_chair_accessible2">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wheel_chair_accessible3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_toilets3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_toilets0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_toilets1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_motorcycling">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/motorcycling.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_star1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_star</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_star0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wheel_chair_accessible">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_dining">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dollar">
+		<IconStyle>
+			<scale>0.583333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dollar.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_parking_lot2">
+		<IconStyle>
+			<scale>0.709091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_woman0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_woman1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_woman0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wheel_chair_accessible">
+		<IconStyle>
+			<scale>0.816667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_toilets">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_toilets</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_toilets2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_gas_stations">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_toilets1">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_gas_stations0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_toilets2">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
@@ -1111,28 +951,98 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sn_man1">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_parking_lot2">
+	<Style id="sn_dining">
 		<IconStyle>
 			<scale>0.6</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sh_toilets0">
+		<IconStyle>
+			<scale>0.709091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_toilets2">
+		<IconStyle>
+			<scale>0.816667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_dining">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wheel_chair_accessible0">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_woman">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_woman1">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_motorcycling">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/motorcycling.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_star0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_star1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_star1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_ylw-pushpin01">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1146,9 +1056,92 @@
 			<outline>0</outline>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_toilets4">
+	<Style id="sn_parking_lot">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_man">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_toilets0">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_star0">
+		<IconStyle>
+			<scale>0.709091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_motorcycling0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/motorcycling.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>4cdcdcdc</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_play">
 		<IconStyle>
 			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_woman1">
+		<IconStyle>
+			<scale>0.816667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>0.827273</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
 			</Icon>
@@ -1156,6 +1149,125 @@
 		</IconStyle>
 		<ListStyle>
 		</ListStyle>
+	</Style>
+	<Style id="sh_woman0">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_parking_lot0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parking_lot</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parking_lot</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_man0">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_wheel_chair_accessible0">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_bus">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_woman0">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_woman">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_man">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_man0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_man</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_Elevator-Icon-0820152848">
+		<IconStyle>
+			<Icon>
+				<href>http://s.bellevuecollege.edu/Kurogo-dev/kml/Elevator-Icon.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_parking_lot1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>4cdcdcdc</color>
+			<outline>0</outline>
+		</PolyStyle>
 	</Style>
 	<Folder>
 		<name>Buildings</name>
@@ -1187,13 +1299,6 @@
 		<Placemark>
 			<name>B Bldg</name>
 			<description>B Building</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>B Building
-						Building B</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1483358945607</longitude>
 				<latitude>47.58488651267133</latitude>
@@ -1204,6 +1309,13 @@
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>B Building
+						Building B</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1486694444445,47.58504722222222,0</coordinates>
@@ -1212,13 +1324,6 @@
 		<Placemark>
 			<name>C Bldg</name>
 			<description>C Building</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>C Building
-						Building C</value>
-				</Data>
-			</ExtendedData>
 			<Camera>
 				<longitude>-122.1496534484029</longitude>
 				<latitude>47.58439423008784</latitude>
@@ -1229,6 +1334,13 @@
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>C Building
+						Building C</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1500027777778,47.58493055555557,0</coordinates>
@@ -1237,13 +1349,6 @@
 		<Placemark>
 			<name>D Bldg</name>
 			<description>D Building</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>D Building
-						Building D</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1500687756003</longitude>
 				<latitude>47.58398835034933</latitude>
@@ -1254,6 +1359,13 @@
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>D Building
+						Building D</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.15002,47.584187,0</coordinates>
@@ -1262,13 +1374,6 @@
 		<Placemark>
 			<name>E Bldg</name>
 			<description>E Building</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>E Building
-						Building E</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1488469406253</longitude>
 				<latitude>47.58344444044436</latitude>
@@ -1279,6 +1384,13 @@
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>E Building
+						Building E</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.149353,47.583261,0</coordinates>
@@ -1287,13 +1399,6 @@
 		<Placemark>
 			<name>F Bldg</name>
 			<description>F Building, Greenhouse</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>F Building
-						Building F</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1503800183336</longitude>
 				<latitude>47.58532989933384</latitude>
@@ -1304,6 +1409,13 @@
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>F Building
+						Building F</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.150466,47.585292,0</coordinates>
@@ -1314,13 +1426,6 @@
 			<description>G Building
 Gym
 Locker Rooms</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>G Building
-						Building G</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1495722215752</longitude>
 				<latitude>47.58685168194354</latitude>
@@ -1331,6 +1436,13 @@ Locker Rooms</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>G Building
+						Building G</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.149602,47.58691300000001,0</coordinates>
@@ -1338,14 +1450,12 @@ Locker Rooms</description>
 		</Placemark>
 		<Placemark>
 			<name>K Bldg</name>
-			<description>K Building</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>K Building
-						Building K</value>
-				</Data>
-			</ExtendedData>
+			<description>
+				K Building<br/>
+				Public Safety Campus Ops<br/>
+				Mailroom and Warehouse K106<br/>
+				Receiving Dock K102<br/>
+			</description>
 			<LookAt>
 				<longitude>-122.1502392793085</longitude>
 				<latitude>47.58679129586492</latitude>
@@ -1356,6 +1466,17 @@ Locker Rooms</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>K Building
+						Building K
+						Public Safety Campus Ops
+						Mailroom and Warehouse K106
+						Receiving Dock K102
+					</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.150278,47.586949,0</coordinates>
@@ -1364,13 +1485,6 @@ Locker Rooms</description>
 		<Placemark>
 			<name>L Bldg</name>
 			<description>L Building</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>L Building
-						Building l</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1488054736073</longitude>
 				<latitude>47.58583162249058</latitude>
@@ -1381,6 +1495,13 @@ Locker Rooms</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>L Building
+						Building l</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.148787,47.585839,0</coordinates>
@@ -1389,13 +1510,6 @@ Locker Rooms</description>
 		<Placemark>
 			<name>M Bldg</name>
 			<description>M Building</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>M Building
-						Building M</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1506652404006</longitude>
 				<latitude>47.58685206246925</latitude>
@@ -1406,6 +1520,13 @@ Locker Rooms</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>M Building
+						Building M</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.150558,47.586771,0</coordinates>
@@ -1414,13 +1535,6 @@ Locker Rooms</description>
 		<Placemark>
 			<name>N Bldg</name>
 			<description>N Building</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>N Building
-						Building N</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1494308409672</longitude>
 				<latitude>47.58209961290622</latitude>
@@ -1431,6 +1545,13 @@ Locker Rooms</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>N Building
+						Building N</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.149903,47.582227,0</coordinates>
@@ -1440,16 +1561,6 @@ Locker Rooms</description>
 			<name>Q Bldg</name>
 			<description>Q Building
 Early Learning Center</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>
-						Q Building
-						Building Q
-						Early Learning Center
-					</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1455211057759</longitude>
 				<latitude>47.58840391485578</latitude>
@@ -1460,6 +1571,14 @@ Early Learning Center</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Q Building
+						Building Q
+						Early Learning Center</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1457284052831,47.58856509987106,0</coordinates>
@@ -1468,13 +1587,6 @@ Early Learning Center</description>
 		<Placemark>
 			<name>R Bldg</name>
 			<description>R Buidling</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>R Building
-						Building R</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1494199165179</longitude>
 				<latitude>47.58591387222494</latitude>
@@ -1485,6 +1597,13 @@ Early Learning Center</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>R Building
+						Building R</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1496166666667,47.586205,0</coordinates>
@@ -1494,15 +1613,6 @@ Early Learning Center</description>
 			<name>S Bldg (Science)</name>
 			<description>S Building
 Science</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>S Building
-						Building S
-						Science
-						</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1469284027675</longitude>
 				<latitude>47.58470154823762</latitude>
@@ -1513,6 +1623,14 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>S Building
+						Building S
+						Science</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1472083333333,47.58494900000001,0</coordinates>
@@ -1521,13 +1639,6 @@ Science</description>
 		<Placemark>
 			<name>T Bldg</name>
 			<description>T Building</description>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>T Building
-						Building T</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1477611403358</longitude>
 				<latitude>47.58398358443294</latitude>
@@ -1538,6 +1649,13 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>T Building
+						Building T</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.147725,47.58403599999999,0</coordinates>
@@ -1609,15 +1727,8 @@ Science</description>
 		<name>Parking</name>
 		<Folder>
 			<name>Employee</name>
-			<open>1</open>
 			<Placemark>
 				<name>Lot 13</name>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Employee Parking Lot 13</value>
-				</Data>
-			</ExtendedData>
 				<LookAt>
 					<longitude>-122.148724200596</longitude>
 					<latitude>47.58212928406058</latitude>
@@ -1628,6 +1739,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot 13</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1485752602531,47.58215749261203,0</coordinates>
@@ -1635,12 +1752,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 15</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot 15</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1482254349</longitude>
 					<latitude>47.58268881508155</latitude>
@@ -1651,6 +1762,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot 15</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1482528364431,47.58268694525378,0</coordinates>
@@ -1658,12 +1775,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot B2</name>
-				<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Employee Parking Lot B2</value>
-				</Data>
-			</ExtendedData>
 				<LookAt>
 					<longitude>-122.1491919285769</longitude>
 					<latitude>47.58282431282641</latitude>
@@ -1674,6 +1785,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot B2</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1491792504895,47.5827866392698,0</coordinates>
@@ -1681,12 +1798,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot B1</name>
-				<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Employee Parking Lot B1</value>
-				</Data>
-			</ExtendedData>
 				<LookAt>
 					<longitude>-122.149762532341</longitude>
 					<latitude>47.58296019134207</latitude>
@@ -1697,6 +1808,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot B1</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.149688,47.583019,0</coordinates>
@@ -1704,12 +1821,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 6</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot 6</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1465835230332</longitude>
 					<latitude>47.58331892708937</latitude>
@@ -1720,6 +1831,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot 6</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1466356526935,47.58335201820431,0</coordinates>
@@ -1727,12 +1844,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot C2</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot C2</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.150912160959</longitude>
 					<latitude>47.58301877554393</latitude>
@@ -1743,6 +1854,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot C2</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1508001916086,47.58300417674128,0</coordinates>
@@ -1750,12 +1867,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot C3</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot C3</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1504948522063</longitude>
 					<latitude>47.5834234266645</latitude>
@@ -1766,6 +1877,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot C3</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1504467018552,47.58343888907644,0</coordinates>
@@ -1773,12 +1890,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot C4</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot C4</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1507620018929</longitude>
 					<latitude>47.58378708936593</latitude>
@@ -1789,6 +1900,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot C4</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1507797747253,47.58378034332121,0</coordinates>
@@ -1796,12 +1913,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot C5</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot C5</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1506396482593</longitude>
 					<latitude>47.58413372106981</latitude>
@@ -1812,6 +1923,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot C5</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1506266662987,47.5841856015217,0</coordinates>
@@ -1819,12 +1936,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot C6</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot C6</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1507197235143</longitude>
 					<latitude>47.58430412984652</latitude>
@@ -1835,6 +1946,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot C6</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1507837705029,47.58432637397021,0</coordinates>
@@ -1842,12 +1959,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot C1</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot C1</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1508870362187</longitude>
 					<latitude>47.58453922175426</latitude>
@@ -1858,6 +1969,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot C1</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1508805095956,47.58455371007678,0</coordinates>
@@ -1865,12 +1982,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot C10</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot C10</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1507032813921</longitude>
 					<latitude>47.58584543000292</latitude>
@@ -1881,6 +1992,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot C10</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1507577879967,47.58579349210212,0</coordinates>
@@ -1888,12 +2005,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot D1</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot D1</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1504795302503</longitude>
 					<latitude>47.58575426581957</latitude>
@@ -1904,6 +2015,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot D1</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.15051725494,47.58576416652448,0</coordinates>
@@ -1911,12 +2028,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot C12</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot C12</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1506594398807</longitude>
 					<latitude>47.58628362278844</latitude>
@@ -1927,6 +2038,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot C12</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1507190528748,47.58628232415818,0</coordinates>
@@ -1934,12 +2051,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot D2</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot D2</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1504402396935</longitude>
 					<latitude>47.58642405122355</latitude>
@@ -1950,6 +2061,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot D2</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1505181434766,47.5864175734933,0</coordinates>
@@ -1957,12 +2074,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 19</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot 19</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1500958074701</longitude>
 					<latitude>47.58721984277081</latitude>
@@ -1973,6 +2084,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot 19</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1500958074701,47.58721984277081,0</coordinates>
@@ -1980,12 +2097,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 9E</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot 9E</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1464062336868</longitude>
 					<latitude>47.58866422474365</latitude>
@@ -1996,6 +2107,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot 9E</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1464062336868,47.58866422474365,0</coordinates>
@@ -2003,12 +2120,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 9C</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot 9C</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1465028232636</longitude>
 					<latitude>47.58843243973704</latitude>
@@ -2019,6 +2130,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot 9C</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1464245650151,47.58834223122791,0</coordinates>
@@ -2026,12 +2143,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>lot F2</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Employee Parking Lot F2</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<gx:ViewerOptions>
 						<gx:option enabled="0" name="historicalimagery"></gx:option>
@@ -2047,6 +2158,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Employee Parking Lot F2</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1461497235185,47.5856048600537,0</coordinates>
@@ -2055,15 +2172,8 @@ Science</description>
 		</Folder>
 		<Folder>
 			<name>Student</name>
-			<open>1</open>
 			<Placemark>
 				<name>Lot 14</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Student Parking Lot 14</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1503605591917</longitude>
 					<latitude>47.58275049702229</latitude>
@@ -2074,6 +2184,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking Lot 14</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1502396802919,47.58281519319905,0</coordinates>
@@ -2081,12 +2197,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 10</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Student Parking Lot 10</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1474101527013</longitude>
 					<latitude>47.58300045144961</latitude>
@@ -2097,6 +2207,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking Lot 10</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.147419982309,47.58303953501075,0</coordinates>
@@ -2104,12 +2220,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 8</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Student Parking Lot 8</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.147239315857</longitude>
 					<latitude>47.5833693611636</latitude>
@@ -2120,6 +2230,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking Lot 8</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1472930577273,47.58337199224491,0</coordinates>
@@ -2127,12 +2243,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 4</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Student Parking Lot 4</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1459196991747</longitude>
 					<latitude>47.5835640976273</latitude>
@@ -2143,6 +2253,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking Lot 4</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1459205835828,47.58349265689183,0</coordinates>
@@ -2150,12 +2266,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 10C</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Student Parking Lot 10C</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1459897639347</longitude>
 					<latitude>47.58211644033145</latitude>
@@ -2166,6 +2276,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking Lot 10C</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1459897639347,47.58211644033145,0</coordinates>
@@ -2173,12 +2289,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Garage, 1st - 4th floor</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Student Parking Garage</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1469122982874</longitude>
 					<latitude>47.58558116773531</latitude>
@@ -2189,6 +2299,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking Garage</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1475460034391,47.58567439611751,0</coordinates>
@@ -2196,12 +2312,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 17</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Student Parking Lot 17</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1489772501865</longitude>
 					<latitude>47.5870979074146</latitude>
@@ -2212,6 +2322,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking Lot 17</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1488702613526,47.58722988287784,0</coordinates>
@@ -2219,12 +2335,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 16</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Student Parking Lot 16</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1488150345697</longitude>
 					<latitude>47.5876583697537</latitude>
@@ -2235,6 +2345,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking Lot 16</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1489655350969,47.58770720777245,0</coordinates>
@@ -2242,12 +2358,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 18</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Student Parking Lot 18</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.149737858491</longitude>
 					<latitude>47.58754191449998</latitude>
@@ -2258,6 +2368,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking Lot 18</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1497296050647,47.58762680668083,0</coordinates>
@@ -2265,12 +2381,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 7</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value>Student Parking Lot 7</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1454763617873</longitude>
 					<latitude>47.58498453601279</latitude>
@@ -2281,6 +2391,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking Lot 7</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1456578218824,47.58520870826162,0</coordinates>
@@ -2289,15 +2405,8 @@ Science</description>
 		</Folder>
 		<Folder>
 			<name>Daily Metered</name>
-			<open>1</open>
 			<Placemark>
 				<name>Lot 12</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Daily metered Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1476584756344</longitude>
 					<latitude>47.58269437290353</latitude>
@@ -2308,6 +2417,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Daily metered Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1476584756344,47.58269437290353,0</coordinates>
@@ -2315,12 +2430,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Garage, 5th floor</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Daily metered Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1472001136024</longitude>
 					<latitude>47.58558967346957</latitude>
@@ -2331,6 +2440,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Daily metered Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1472001136024,47.58558967346957,0</coordinates>
@@ -2338,12 +2453,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 9D</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Daily metered Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1470757782015</longitude>
 					<latitude>47.58872562995176</latitude>
@@ -2354,6 +2463,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Daily metered Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1470006877772,47.58873585126387,0</coordinates>
@@ -2361,12 +2476,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 9B</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Daily metered Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1474878581039</longitude>
 					<latitude>47.58858408009304</latitude>
@@ -2377,6 +2486,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot1</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Daily metered Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1475537196304,47.58856671515635,0</coordinates>
@@ -2384,12 +2499,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 9A</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Daily metered Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1474532330192</longitude>
 					<latitude>47.58832975321636</latitude>
@@ -2400,6 +2509,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot2</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Daily metered Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1475126523534,47.58835977039182,0</coordinates>
@@ -2411,12 +2526,6 @@ Science</description>
 			<open>1</open>
 			<Placemark>
 				<name>Garage, 1st Floor</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Motorcycle Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1468784784177</longitude>
 					<latitude>47.58560559058812</latitude>
@@ -2427,6 +2536,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_motorcycling</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Motorcycle Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1469573482892,47.58548843100789,0</coordinates>
@@ -2434,12 +2549,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 9B - Motorcycle</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Motorcycle Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1479735398329</longitude>
 					<latitude>47.58839396407453</latitude>
@@ -2450,6 +2559,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_motorcycling0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Motorcycle Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1480245028562,47.58837205503808,0</coordinates>
@@ -2461,12 +2576,6 @@ Science</description>
 			<open>1</open>
 			<Placemark>
 				<name>Lot 5</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Discount Permit Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1443638561135</longitude>
 					<latitude>47.58266343848855</latitude>
@@ -2477,6 +2586,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot2</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Discount Permit Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1442368819415,47.58253536449741,0</coordinates>
@@ -2484,12 +2599,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 1B</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Discount Permit Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.14408849106</longitude>
 					<latitude>47.58477593316149</latitude>
@@ -2500,6 +2609,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot2</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Discount Permit Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.14408849106,47.5847759331615,0</coordinates>
@@ -2507,12 +2622,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 1A</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Discount Permit Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1439264539709</longitude>
 					<latitude>47.58402071058048</latitude>
@@ -2523,6 +2632,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot2</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Discount Permit Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1439466659715,47.58388678547996,0</coordinates>
@@ -2530,12 +2645,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 3A</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Discount Permit Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1440950174849</longitude>
 					<latitude>47.58350132859386</latitude>
@@ -2546,6 +2655,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot2</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Discount Permit Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1441074586109,47.58349903492261,0</coordinates>
@@ -2553,12 +2668,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 3B</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Discount Permit Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1441977858335</longitude>
 					<latitude>47.58307851264203</latitude>
@@ -2569,6 +2678,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot2</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Discount Permit Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1441977858335,47.58307851264203,0</coordinates>
@@ -2580,12 +2695,6 @@ Science</description>
 			<open>1</open>
 			<Placemark>
 				<name>Lot C7</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Reserved Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1504359697713</longitude>
 					<latitude>47.58507645289564</latitude>
@@ -2596,6 +2705,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot2</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Reserved Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1505739417649,47.58505079663928,0</coordinates>
@@ -2603,12 +2718,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot B3</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Reserved Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1503161667473</longitude>
 					<latitude>47.58198374870261</latitude>
@@ -2619,6 +2728,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot2</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Reserved Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1506653893617,47.58211373306543,0</coordinates>
@@ -2626,12 +2741,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 20</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Reserved Parking </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.14510079096</longitude>
 					<latitude>47.5884484451754</latitude>
@@ -2642,6 +2751,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_parking_lot2</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Reserved Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1451956342445,47.58839782408987,0</coordinates>
@@ -2653,12 +2768,6 @@ Science</description>
 			<open>1</open>
 			<Placemark>
 				<name>Lot C7 - Charge Station</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Electric Vehicle Charging Station </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1504359697713</longitude>
 					<latitude>47.58507645289564</latitude>
@@ -2669,6 +2778,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_gas_stations0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Electric Vehicle Charging Station</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1503766385353,47.58501262643573,0</coordinates>
@@ -2676,12 +2791,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Garage, 1st Floor - Charge Station</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> Electric Vehicle Charging Station </value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1470583481582</longitude>
 					<latitude>47.58559245578292</latitude>
@@ -2692,6 +2801,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_gas_stations</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Electric Vehicle Charging Station</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1467213680294,47.58546915596725,0</coordinates>
@@ -2700,17 +2815,9 @@ Science</description>
 		</Folder>
 		<Folder>
 			<name>Wheelchair Accessible Areas</name>
+			<open>1</open>
 			<Placemark>
 				<name>Lot B3 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1506554213342</longitude>
 					<latitude>47.58197702768393</latitude>
@@ -2720,7 +2827,14 @@ Science</description>
 					<range>98.35991097433467</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.150695019972,47.58194025590713,0</coordinates>
@@ -2728,15 +2842,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 14 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1501009401745</longitude>
 					<latitude>47.5827121534638</latitude>
@@ -2746,7 +2851,14 @@ Science</description>
 					<range>95.16527676028291</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1501502104407,47.58265396191023,0</coordinates>
@@ -2754,15 +2866,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot B1 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1496354150661</longitude>
 					<latitude>47.58305181372143</latitude>
@@ -2772,7 +2875,14 @@ Science</description>
 					<range>42.63638033572917</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1496843529968,47.58304403644979,0</coordinates>
@@ -2780,16 +2890,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 13 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
-				
 				<LookAt>
 					<longitude>-122.1486936981152</longitude>
 					<latitude>47.58226283329011</latitude>
@@ -2799,7 +2899,14 @@ Science</description>
 					<range>73.61202629634691</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1488145534528,47.58220535270428,0</coordinates>
@@ -2807,15 +2914,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot15 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.148498553281</longitude>
 					<latitude>47.58283494390204</latitude>
@@ -2825,7 +2923,14 @@ Science</description>
 					<range>58.55720618016854</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.148615270043,47.58275341753851,0</coordinates>
@@ -2833,15 +2938,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 12 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1480993993149</longitude>
 					<latitude>47.58302647264831</latitude>
@@ -2851,7 +2947,14 @@ Science</description>
 					<range>82.22028283376284</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1481089907853,47.58298802433487,0</coordinates>
@@ -2859,15 +2962,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 10 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1479048762161</longitude>
 					<latitude>47.58329840008587</latitude>
@@ -2877,7 +2971,14 @@ Science</description>
 					<range>81.68898407061295</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1480006719154,47.58330232739458,0</coordinates>
@@ -2885,15 +2986,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot C5 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1505455709718</longitude>
 					<latitude>47.5841600839809</latitude>
@@ -2903,7 +2995,14 @@ Science</description>
 					<range>115.1636086203334</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1505914028101,47.584139626561,0</coordinates>
@@ -2911,15 +3010,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot C7 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1503520891372</longitude>
 					<latitude>47.58508674088244</latitude>
@@ -2929,7 +3019,14 @@ Science</description>
 					<range>115.8683001484057</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1506081385873,47.58498738104162,0</coordinates>
@@ -2937,15 +3034,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot D1 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1502708196155</longitude>
 					<latitude>47.58576640240544</latitude>
@@ -2955,7 +3043,14 @@ Science</description>
 					<range>116.0617435405318</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1503179694106,47.58569892983017,0</coordinates>
@@ -2963,15 +3058,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot D2 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1504426884671</longitude>
 					<latitude>47.58651750684706</latitude>
@@ -2981,7 +3067,14 @@ Science</description>
 					<range>97.81008926674667</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1505954462222,47.58646404859975,0</coordinates>
@@ -2989,15 +3082,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 19 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1501750360594</longitude>
 					<latitude>47.58727388567431</latitude>
@@ -3007,7 +3091,14 @@ Science</description>
 					<range>106.7589367925153</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1503717938405,47.58717302264807,0</coordinates>
@@ -3015,15 +3106,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 17 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1491755587358</longitude>
 					<latitude>47.58728956087764</latitude>
@@ -3033,7 +3115,14 @@ Science</description>
 					<range>104.5766705365251</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1492215976638,47.58723267611055,0</coordinates>
@@ -3041,15 +3130,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 9 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1466591367269</longitude>
 					<latitude>47.58874841680683</latitude>
@@ -3059,7 +3139,14 @@ Science</description>
 					<range>246.4026225644937</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1467195678547,47.58883965675877,0</coordinates>
@@ -3067,15 +3154,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Lot 20 - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.14510079096</longitude>
 					<latitude>47.5884484451754</latitude>
@@ -3085,7 +3163,14 @@ Science</description>
 					<range>216.1063546564597</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1453365684808,47.58846782223066,0</coordinates>
@@ -3093,15 +3178,6 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>Garage - Disabled</name>
-				<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Wheelchair Accessible Areas
-							Disabled Parking
-						</value>
-					</Data>
-				</ExtendedData>
 				<LookAt>
 					<longitude>-122.1471126971081</longitude>
 					<latitude>47.58568440288499</latitude>
@@ -3111,7 +3187,14 @@ Science</description>
 					<range>349.8368638040849</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Wheelchair Accessible Areas
+							Disabled Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.1472473185704,47.58582435017988,0</coordinates>
@@ -3177,14 +3260,6 @@ Science</description>
 		<name>Dining</name>
 		<Placemark>
 			<name>Cafeteria</name>
-			<ExtendedData>
-					<Data name="keywords">
-						<displayName>Keywords</displayName>
-						<value> 
-							Dining Eating
-						</value>
-					</Data>
-				</ExtendedData>
 			<LookAt>
 				<longitude>-122.1497699306028</longitude>
 				<latitude>47.58469894676824</latitude>
@@ -3195,6 +3270,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_dining</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Dining Eating</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.150081,47.584686,0</coordinates>
@@ -3202,14 +3283,6 @@ Science</description>
 		</Placemark>
 		<Placemark>
 			<name>R Bldg - Cafe</name>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value> 
-						Dining Eating Coffee 
-					</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.150628296043</longitude>
 				<latitude>47.58614752189759</latitude>
@@ -3220,6 +3293,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_coffee</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Dining Eating Coffee</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1500037922426,47.58600770153805,0</coordinates>
@@ -3227,14 +3306,6 @@ Science</description>
 		</Placemark>
 		<Placemark>
 			<name>C Bldg - Cafe</name>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value> 
-						Dining Eating Coffee 
-					</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1495842255019</longitude>
 				<latitude>47.58481869587931</latitude>
@@ -3245,6 +3316,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_coffee</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Dining Eating Coffee</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.149735,47.584639,0</coordinates>
@@ -3292,14 +3369,6 @@ Science</description>
 		<name>Emergency Evacuation Routes</name>
 		<Placemark>
 			<name>Evacuation Zone A for G, K &amp; M Bldg&apos;s</name>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value> 
-						Emergency Evacuation Routes
-					</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1513199844688</longitude>
 				<latitude>47.58827771643613</latitude>
@@ -3310,6 +3379,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_star0</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Emergency Evacuation Routes</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1513291343019,47.58798019243371,0</coordinates>
@@ -3317,14 +3392,6 @@ Science</description>
 		</Placemark>
 		<Placemark>
 			<name>Evacuation Zone B ( Lot 9 ) for Q &amp; House 6</name>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value> 
-						Emergency Evacuation Routes
-					</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.147587912501</longitude>
 				<latitude>47.58858443321555</latitude>
@@ -3335,6 +3402,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_star2</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Emergency Evacuation Routes</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.147587912501,47.58858443321555,0</coordinates>
@@ -3342,14 +3415,6 @@ Science</description>
 		</Placemark>
 		<Placemark>
 			<name>Evacuation Zone C (Lot D1) for C, F, L, &amp; R Bldg&apos;s</name>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value> 
-						Emergency Evacuation Routes
-					</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1506703051622</longitude>
 				<latitude>47.58581534871131</latitude>
@@ -3360,6 +3425,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_star1</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Emergency Evacuation Routes</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1506493549653,47.58582778020362,0</coordinates>
@@ -3367,14 +3438,6 @@ Science</description>
 		</Placemark>
 		<Placemark>
 			<name>Evacuation Zone D (Lot 7) for B, S, Parking Garage &amp; House 1/4/5</name>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value> 
-						Emergency Evacuation Routes
-					</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1453983922019</longitude>
 				<latitude>47.58500937078875</latitude>
@@ -3385,6 +3448,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_star1</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Emergency Evacuation Routes</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1453317535241,47.58491088069717,0</coordinates>
@@ -3392,14 +3461,6 @@ Science</description>
 		</Placemark>
 		<Placemark>
 			<name>Evacuation Zone E (Lot 6,8, &amp; 10) for A, D, E, &amp; T Bldg&apos;s</name>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value> 
-						Emergency Evacuation Routes
-					</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1469021164257</longitude>
 				<latitude>47.58322519557292</latitude>
@@ -3410,6 +3471,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_star1</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Emergency Evacuation Routes</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1471007149101,47.58316700864016,0</coordinates>
@@ -3417,14 +3484,6 @@ Science</description>
 		</Placemark>
 		<Placemark>
 			<name>Evacuation Zone F (Lot 13) for N Bldg</name>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value> 
-						Emergency Evacuation Routes
-					</value>
-				</Data>
-			</ExtendedData>
 			<LookAt>
 				<longitude>-122.1485460008909</longitude>
 				<latitude>47.58205599443403</latitude>
@@ -3435,6 +3494,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_star</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Emergency Evacuation Routes</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1484934059794,47.58202811569398,0</coordinates>
@@ -3464,8 +3529,7 @@ Science</description>
 				<ExtendedData>
 					<Data name="keywords">
 						<displayName>Keywords</displayName>
-						<value>
-						Institute for Business &amp; Information Technology (iBIT), A254
+						<value>Institute for Business &amp; Information Technology (iBIT), A254
 						A154 Digital Music Lab
 						A155 Digital Music Studio
 						A156 
@@ -3483,8 +3547,7 @@ Science</description>
 						 A262 
 						 A263 
 						 A264 
-						 A265
-						</value>
+						 A265</value>
 					</Data>
 				</ExtendedData>
 				<Polygon>
@@ -3618,6 +3681,8 @@ Science</description>
 						<displayName>Keywords</displayName>
 						<value>B101 B102 B103 B104 B106
 							 Board Room B201
+							 West Board Room (B201A)
+							 East Board Room (B201B)
 							 Administrative Services B202
 							 B203 B204 B205 B206 B207 B208 B209 B210 B211 B212 B213 B214
 							 CEO Computer Classroom B105
@@ -3699,8 +3764,15 @@ Science</description>
 			</Placemark>
 			<Placemark>
 				<name>B123 - B127 , B230 - B234</name>
-				<description><![CDATA[Registration Lobby B125 <br/>
-					  Center for Career Connections B231]]></description>
+				<description><![CDATA[
+					  Enrollment &amp; registrar services, Evaluations/Graduation, Financial Aid, Veteran's Office B125 <br/>
+					  Center for Career Connections B231 <br/>
+					  Student Services <br/>
+					  Bookstore B127
+					  Cashier&apos;s Office B126
+					  
+					  ]]>
+				</description>
 				<LookAt>
 					<longitude>-122.1483832644914</longitude>
 					<latitude>47.58485831858204</latitude>
@@ -3714,10 +3786,23 @@ Science</description>
 				<ExtendedData>
 					<Data name="keywords">
 						<displayName>Keywords</displayName>
-						<value>B123 B124 B126 B127
+						<value>B123 B124 B126
+							 
 							 B230 B232 B233 B234
 							 B125 Registration Lobby
-							 Center for Career Connections B231</value>
+							 Center for Career Connections B231
+							 B230A - Fishbowl
+							 BC Store
+							 Bookstore B127
+							 Enrollment and registrar services
+							 Enrollment &amp; registrar services B125
+							 Registration Lobby B125
+							 Student Services
+							 Cashier&apos;s Office B126
+							 Evaluations/Graduation B125
+							 Financial Aid B125
+							 Veteran's Office B125
+						</value>
 					</Data>
 				</ExtendedData>
 				<Polygon>
@@ -3736,7 +3821,12 @@ Science</description>
 				<name>B131 - B160, B228 - B264</name>
 				<description><![CDATA[Planetarium, B244 <br/>
 					 WorkFirst Worker Retraining Lab B250 <br/>
-					 WorkFirst Worker Retraining Lab B255]]></description>
+					 WorkFirst Worker Retraining Lab B255 <br/>
+					 Assessment/GED Office/Testing Center, B142 <br/>
+					 Disabililty Resource Center (DRC) B132 <br/>
+					 Career Services B231
+					 ]]> 
+				</description>
 				<LookAt>
 					<longitude>-122.1486449445146</longitude>
 					<latitude>47.58515004275932</latitude>
@@ -3750,11 +3840,17 @@ Science</description>
 				<ExtendedData>
 					<Data name="keywords">
 						<displayName>Keywords</displayName>
-						<value>B131 B132  B133 B134 B135 B136 B137 B138 B139 B140 B141 B142 B143 B144 B145 B146 B147 B148 B149 B150 B151 B152 B153 B154 B155 B156 B157 B158 B159 B160
+						<value>B131 B133 B134 B135 B136 B137 B138 B139 B140 B141 B142 B143 B144 B145 B146 B147 B148 B149 B150 B151 B152 B153 B154 B155 B156 B157 B158 B159 B160
 							 B228 B229 B230 B231 B232 B233 B234 B235 B236 B237 B238 B239 B240 B241 B242 B243 B245 B246 B247 B248 B249 B251 B252 B253 B254 B256 B257 B258 B259 B260 B261 B262 B263 B264
 							 WorkFirst Worker Retraining Lab B250
 							 WorkFirst Worker Retraining Lab B255
-							 Planetarium B244</value>
+							 Planetarium B244
+							 Assessment B142
+							GED office B142
+							Testing Center B142
+							Disabililty Resource Center (DRC) B132
+							Career Services B231
+							 </value>
 					</Data>
 				</ExtendedData>
 				<Polygon>
@@ -3793,7 +3889,11 @@ Science</description>
 						<value>C100 C101 C102 C103 C104 C106 C107 C108 C109 C110 C111 C112 C113 C114 C115 C116 C117 C118 C119 C120 C121 C122 C123 C124 C125 C126 C127 C128 C129 C130 C131 C132 C133 C134
 							 C201 C202 C203 C204 C205 C206 C207 C208 C209 C210 C211 C213 C214 C215 C216 C217 C218 C219 C220 C221 C222 C223 C224 C225 C226 C227
 							 Campus Business Center C105
-							  Student programs / Student Government Office, C212</value>
+							  Student programs / Student Government Office, C212
+							  C130A Garden Room
+							  C130B Garden Room
+							  C120A Continental Room
+							  C120B Continental Room</value>
 					</Data>
 				</ExtendedData>
 				<Polygon>
@@ -3848,7 +3948,7 @@ Science</description>
 			<Placemark>
 				<name>D172 - D176, D273 - D276</name>
 				<description><![CDATA[Printing Services, D175 <br/>
-					 The Gallery Space, D271]]></description>
+					 Art Gallery (The Gallery Space, D271) ]]></description>
 				<LookAt>
 					<longitude>-122.1498938929134</longitude>
 					<latitude>47.58333733164194</latitude>
@@ -3865,7 +3965,9 @@ Science</description>
 						<value>D172 D173 D174 D175 D176
 							 D273 D274 D275 D276
 							 Printing Services
-							 The Gallery Space</value>
+							 The Gallery Space
+							 Art Gallery
+						</value>
 					</Data>
 				</ExtendedData>
 				<Polygon>
@@ -3897,7 +3999,7 @@ Science</description>
 					<Data name="keywords">
 						<displayName>Keywords</displayName>
 						<value>D140 D141 D142 D143 D144 D145 D146 D147 D148 D149 D150 D151 D153 D154 D155 D156 D157 D158 D159 D160 D161 D162 D163 D164 D165 D166 D167 D168 D169 D170
-							 D240 D241 D242 D243 D244 D245 D246 D247 D248 D249 D250 D251 D252 D253 D254 D255 D256 D257 D258 D259 D260
+							 D240 D241 D242 D243 D244 D245 D246 D247 D248 D249 D250 D251 D252 D253 D254 D255 D256 D257 D258 D259 D260 D260A
 							 D152 Advanced Video Production
 							 Television Services</value>
 					</Data>
@@ -3967,10 +4069,13 @@ Science</description>
 				<ExtendedData>
 					<Data name="keywords">
 						<displayName>Keywords</displayName>
-						<value>D101 D102 D103 D104 D105 D106 D107 D108 D109 D110 D203 D204 D205 D206 D207 D208 D209 D210 D211 D212 D213 D214 D215 D216 D217 D218 D219 D220 D221
+						<value>D101 D102 D103 D104 D105 D106 D107 D108 D109 D110 D203 D205 D206 D207 D208 D209 D210 D211 D212 D213 D214 D215 D216 D217 D218 D219 D220 D221
 							D202 Reading Lab
 							D204 Developement Math Lab
-							D222 Writing Lab</value>
+							D222 Writing Lab
+							D110G
+							Academic Success Center D204
+						</value>
 					</Data>
 				</ExtendedData>
 				<Polygon>
@@ -4176,8 +4281,7 @@ Science</description>
 			<Placemark>
 				<name>L100 - L126 , L200 - L226</name>
 				<description><![CDATA[Science Division office, L200 <br/>
-					 Assessment/GED Office/Testing Center, L100 <br/>
-					 CAD Lab, L116
+					 CAD Lab, L116 <br/>
 					 CAD Lab, L121]]></description>
 				<LookAt>
 					<longitude>-122.1488322433789</longitude>
@@ -4197,7 +4301,7 @@ Science</description>
 							L116 CAD Lab
 							L121 CAD Lab
 							Science Division office L200
-							Assessment/GED Office/Testing Center, L100</value>
+							L100D L100C</value>
 					</Data>
 				</ExtendedData>
 				<Polygon>
@@ -4266,6 +4370,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>N216G</value>
+					</Data>
+				</ExtendedData>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<altitudeMode>relativeToGround</altitudeMode>
@@ -4290,6 +4400,12 @@ Science</description>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>N215B</value>
+					</Data>
+				</ExtendedData>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<altitudeMode>relativeToGround</altitudeMode>
@@ -4360,7 +4476,7 @@ Science</description>
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<name>N250- N265</name>
+				<name>N251- N265</name>
 				<description><![CDATA[Cisco Lab, N251 <br/>
 					  IT Lab, N252]]></description>
 				<LookAt>
@@ -4419,7 +4535,9 @@ Science</description>
 							Dance Studio, R014 (in basement)
 							Health Sciences, Education  Wellness Institute, R130
 							Arts &amp; Humanities Division office, R230
-							R131 R132 R133 R134 R135 R136 R137 R138 R139 R140 R231 R232 R233 R234 R235 R236 R237 R238 R239 R240</value>
+							Arts and Humanities Division office, R230
+							R131 R132 R133 R134 R135 R136 R137 R138 R139 R140 R231 R232 R233 R234 R235 R236 R237 R238 R239 R240 
+							R140A</value>
 					</Data>
 				</ExtendedData>
 				<Polygon>
@@ -4483,7 +4601,7 @@ Science</description>
 				<range>260.7373842182308</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1439916666667,47.58535517510395,0</coordinates>
@@ -4500,7 +4618,7 @@ Science</description>
 				<range>229.8599778528652</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1508376266715,47.58242754038641,0</coordinates>
@@ -4517,7 +4635,7 @@ Science</description>
 				<range>276.2860996950774</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1456059941449,47.58931723519893,0</coordinates>
@@ -4538,6 +4656,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_bus</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Bus Stop</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4556,6 +4680,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_bus</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Bus Stop</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1437260503192,47.58547372881747,0</coordinates>
@@ -4573,6 +4703,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_bus</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Bus Stop</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.148443405472,47.58557332590425,0</coordinates>
@@ -4581,12 +4717,278 @@ Science</description>
 	</Folder>
 	<Folder>
 		<name>Access Ramps</name>
+		<open>1</open>
+		<Placemark>
+			<name>Access Ramp near A Building</name>
+			<LookAt>
+				<longitude>-122.1487763386422</longitude>
+				<latitude>47.58376898909292</latitude>
+				<altitude>7.188229321691427</altitude>
+				<heading>-0.709776393923757</heading>
+				<tilt>0.4598743765270952</tilt>
+				<range>84.1204710758952</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.148853,47.583802,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp near B100</name>
+			<LookAt>
+				<longitude>-122.1491037011318</longitude>
+				<latitude>47.58452446742061</latitude>
+				<altitude>7.443489166153602</altitude>
+				<heading>-0.7100180674086908</heading>
+				<tilt>0.459874376504899</tilt>
+				<range>84.12045945689562</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible3</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1492638888889,47.584523,3</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp near B101</name>
+			<LookAt>
+				<longitude>-122.1488203054196</longitude>
+				<latitude>47.5845126062764</latitude>
+				<altitude>0</altitude>
+				<heading>-0.7098088376290249</heading>
+				<tilt>0.4600315314248195</tilt>
+				<range>90.27475256220608</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible3</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1488222222222,47.584509,3</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp near B120</name>
+			<LookAt>
+				<longitude>-122.1487349212368</longitude>
+				<latitude>47.5848910550441</latitude>
+				<altitude>7.218898568306748</altitude>
+				<heading>-0.7097457992777538</heading>
+				<tilt>0.4600310874885039</tilt>
+				<range>84.12046002577083</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.148988,47.584905,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp between Student Services and BECU ATM</name>
+			<LookAt>
+				<longitude>-122.148252826572</longitude>
+				<latitude>47.58505541212769</latitude>
+				<altitude>0</altitude>
+				<heading>-0.709389882294939</heading>
+				<tilt>0.4601360444574734</tilt>
+				<range>90.40240039754922</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.148199,47.58515200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp near Book Store</name>
+			<LookAt>
+				<longitude>-122.1481880382439</longitude>
+				<latitude>47.58482656725406</latitude>
+				<altitude>7.389910119112826</altitude>
+				<heading>-0.7093420452015335</heading>
+				<tilt>0.4601355296378077</tilt>
+				<range>83.26589112713477</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.148042,47.58477799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp between B Building and L Building</name>
+			<LookAt>
+				<longitude>-122.1485542779423</longitude>
+				<latitude>47.58542593791083</latitude>
+				<altitude>8.827514591958465</altitude>
+				<heading>-0.7096124338037233</heading>
+				<tilt>0.4601353375401197</tilt>
+				<range>80.60325844276872</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.14859,47.585464,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp near C Building  Fountain</name>
+			<LookAt>
+				<longitude>-122.1494315888497</longitude>
+				<latitude>47.58456777952038</latitude>
+				<altitude>0</altitude>
+				<heading>-0.7102601370800687</heading>
+				<tilt>0.4601361301001284</tilt>
+				<range>91.58972913673243</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1495666666667,47.584476,3</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp outside Cafeteria</name>
+			<LookAt>
+				<longitude>-122.1495133688738</longitude>
+				<latitude>47.5848642405677</latitude>
+				<altitude>0</altitude>
+				<heading>-0.7103205055628801</heading>
+				<tilt>0.46013612461763</tilt>
+				<range>91.5135060167451</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.149749,47.58488499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp near D Building</name>
+			<LookAt>
+				<longitude>-122.1497911055267</longitude>
+				<latitude>47.58385514360961</latitude>
+				<altitude>7.455493310427067</altitude>
+				<heading>-0.7105255597451354</heading>
+				<tilt>0.4601355774053239</tilt>
+				<range>83.92816436346118</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1498179544597,47.58380935226758,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp near the Courtyard outside R Building</name>
+			<LookAt>
+				<longitude>-122.1496559907519</longitude>
+				<latitude>47.58591258412466</latitude>
+				<altitude>0</altitude>
+				<heading>-0.7104258026169834</heading>
+				<tilt>0.4601360649122664</tilt>
+				<range>90.68593210432964</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible1</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1498361111111,47.58592703090212,9.999999999999998</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp at entrance of R Building through Lot D1</name>
+			<LookAt>
+				<longitude>-122.1501314332803</longitude>
+				<latitude>47.58589402090341</latitude>
+				<altitude>0</altitude>
+				<heading>-0.7107768163456231</heading>
+				<tilt>0.4601360659216168</tilt>
+				<range>90.69996960971967</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible1</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1500944444445,47.58594166666667,9.999999999999998</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp near Exhibit Hall, S Building</name>
+			<LookAt>
+				<longitude>-122.1468162493597</longitude>
+				<latitude>47.58480772987481</latitude>
+				<altitude>10.08188467025019</altitude>
+				<heading>-1.207222169713807</heading>
+				<tilt>0</tilt>
+				<range>243.7691830209613</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible2</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1474166666667,47.584782,6</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp near Entrance ( S244 ) of S Buidling</name>
+			<LookAt>
+				<longitude>-122.1468162493597</longitude>
+				<latitude>47.58480772987481</latitude>
+				<altitude>10.08188467025019</altitude>
+				<heading>-1.207222169713807</heading>
+				<tilt>0</tilt>
+				<range>243.7691830209613</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible2</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.146828,47.58472900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Access Ramp near S Building (S212)</name>
+			<LookAt>
+				<longitude>-122.1468237298019</longitude>
+				<latitude>47.58501477528242</latitude>
+				<altitude>8.693344031479485</altitude>
+				<heading>0.3709330188327418</heading>
+				<tilt>0</tilt>
+				<range>183.0506014815106</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible2</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1472444444445,47.585075,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 	<Folder>
 		<name>Restrooms</name>
 		<open>1</open>
 		<Placemark>
-			<name>A120, A121</name>
+			<name>A120 Men, A121 Women</name>
 			<LookAt>
 				<longitude>-122.1485992261003</longitude>
 				<latitude>47.58396271825575</latitude>
@@ -4597,6 +4999,13 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_toilets</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4604,7 +5013,7 @@ Science</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>A151, A150</name>
+			<name>A151 Women, A150 Men</name>
 			<LookAt>
 				<longitude>-122.1486970205273</longitude>
 				<latitude>47.5833864296462</latitude>
@@ -4615,14 +5024,21 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_toilets</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.1488128124271,47.5832888888889,3</coordinates>
+				<coordinates>-122.1488128124271,47.58328888888891,3</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>B111, B112</name>
+			<name>B111 Men, B112 Women</name>
 			<LookAt>
 				<longitude>-122.1487966299546</longitude>
 				<latitude>47.58493499170968</latitude>
@@ -4633,6 +5049,13 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_toilets3</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4640,7 +5063,7 @@ Science</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>B134, B133</name>
+			<name>B134 Men, B133 Women</name>
 			<LookAt>
 				<longitude>-122.1487100236697</longitude>
 				<latitude>47.58516202744249</latitude>
@@ -4651,6 +5074,13 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_toilets</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4669,6 +5099,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_woman</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4676,7 +5112,7 @@ Science</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>C109, Men&apos;s Restroom</name>
+			<name>C109, Men Restroom</name>
 			<LookAt>
 				<longitude>-122.1498532425831</longitude>
 				<latitude>47.58484012278345</latitude>
@@ -4687,6 +5123,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_man1</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4694,7 +5136,32 @@ Science</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>N213, N214</name>
+			<name>C173 Women , C174 Men</name>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
+			<LookAt>
+				<longitude>-122.149278609335</longitude>
+				<latitude>47.58512853631858</latitude>
+				<altitude>7.63434585196508</altitude>
+				<heading>-1.695781897650403</heading>
+				<tilt>12.36775388236357</tilt>
+				<range>87.06338600679685</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1492777777778,47.58512777777778,6</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>N213 Women, N214 Men</name>
 			<LookAt>
 				<longitude>-122.1492335982424</longitude>
 				<latitude>47.5819321305928</latitude>
@@ -4705,6 +5172,13 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_toilets4</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4723,6 +5197,13 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_toilets4</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4730,7 +5211,7 @@ Science</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>D121, D123</name>
+			<name>D121 Men, D123 Women</name>
 			<LookAt>
 				<longitude>-122.1497459112077</longitude>
 				<latitude>47.58404555296804</latitude>
@@ -4741,6 +5222,13 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_toilets4</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4748,7 +5236,7 @@ Science</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>E100C, E100D</name>
+			<name>E100C Men, E100D Women</name>
 			<LookAt>
 				<longitude>-122.1493984714511</longitude>
 				<latitude>47.58307661454096</latitude>
@@ -4759,6 +5247,13 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_toilets4</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4777,6 +5272,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_woman0</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4784,7 +5285,7 @@ Science</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>G110A, Men&apos;s restroom</name>
+			<name>G110A, Men restroom</name>
 			<LookAt>
 				<longitude>-122.1495663744063</longitude>
 				<latitude>47.58649190328653</latitude>
@@ -4795,6 +5296,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_man</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4802,7 +5309,7 @@ Science</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>G138 , G134</name>
+			<name>G138 Men , G134 Women</name>
 			<LookAt>
 				<longitude>-122.1495025474163</longitude>
 				<latitude>47.58690871045532</latitude>
@@ -4813,6 +5320,13 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_toilets0</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4820,7 +5334,7 @@ Science</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>L107, Men&apos;s Restroom</name>
+			<name>L107, Men Restroom</name>
 			<LookAt>
 				<longitude>-122.1487320695938</longitude>
 				<latitude>47.58583721851924</latitude>
@@ -4831,6 +5345,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_man0</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4849,6 +5369,12 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_woman1</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4856,7 +5382,7 @@ Science</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>N253, N254</name>
+			<name>N253 Women, N254 Men</name>
 			<LookAt>
 				<longitude>-122.1499797154725</longitude>
 				<latitude>47.58211990339551</latitude>
@@ -4867,6 +5393,13 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_toilets2</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4874,7 +5407,7 @@ Science</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>R114, R116</name>
+			<name>R114 Women, R116 Men</name>
 			<LookAt>
 				<longitude>-122.1498252678606</longitude>
 				<latitude>47.58606295496657</latitude>
@@ -4885,6 +5418,13 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_toilets1</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -4892,7 +5432,7 @@ Science</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>S104, S105</name>
+			<name>S104 Women, S105 Men</name>
 			<LookAt>
 				<longitude>-122.1471127448713</longitude>
 				<latitude>47.58486071910068</latitude>
@@ -4903,10 +5443,200 @@ Science</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_toilets</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>Men Restoom 
+						Women Restroom</value>
+				</Data>
+			</ExtendedData>
 			<Point>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1474194444445,47.58490889378384,15</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Elevators</name>
+		<Placemark>
+			<name>Building A Elevator near A160</name>
+			<LookAt>
+				<longitude>-122.1485515915037</longitude>
+				<latitude>47.5832015949021</latitude>
+				<altitude>8.014167087121995</altitude>
+				<heading>-3.05372430444415</heading>
+				<tilt>0.4597176817169325</tilt>
+				<range>83.60699165022029</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_Elevator-Icon-0820152848</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.148551,47.58321388888889,6</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Building B Elevator near B100</name>
+			<LookAt>
+				<longitude>-122.1489929408886</longitude>
+				<latitude>47.58449521580823</latitude>
+				<altitude>7.432429278607053</altitude>
+				<heading>-0.7099363347499146</heading>
+				<tilt>0.4597699319733341</tilt>
+				<range>84.11928403320746</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_Elevator-Icon-0820152848</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.149196,47.58448611111112,6</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Building B Elevator near B138</name>
+			<LookAt>
+				<longitude>-122.1486910081384</longitude>
+				<latitude>47.58533895541952</latitude>
+				<altitude>5.474823383710887</altitude>
+				<heading>-0.7097134215611453</heading>
+				<tilt>0.4597699319550974</tilt>
+				<range>84.11928401815342</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_Elevator-Icon-0820152848</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.149015,47.58538333333333,9.999999999999998</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Building B Elevator near Student Services</name>
+			<LookAt>
+				<longitude>-122.148146152553</longitude>
+				<latitude>47.58487746675354</latitude>
+				<altitude>9.199204455853955</altitude>
+				<heading>-0.7093111626658802</heading>
+				<tilt>0.4597697754430375</tilt>
+				<range>81.94796720000389</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_Elevator-Icon-0820152848</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.148198,47.585015,9.999999999999998</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Building C Elevator near Student Union</name>
+			<LookAt>
+				<longitude>-122.1497072833693</longitude>
+				<latitude>47.58483170180271</latitude>
+				<altitude>0</altitude>
+				<heading>-0.7104637127993057</heading>
+				<tilt>0.4597704838128722</tilt>
+				<range>91.77479732199483</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_Elevator-Icon-0820152848</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.149815,47.58486600000001,4</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Buidling D Elevator near The Gallery Space</name>
+			<LookAt>
+				<longitude>-122.1498408640777</longitude>
+				<latitude>47.58357332041898</latitude>
+				<altitude>7.302473157469015</altitude>
+				<heading>-0.7105623323323339</heading>
+				<tilt>0.4597699539810543</tilt>
+				<range>84.42506993768919</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_Elevator-Icon-0820152848</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1498111111111,47.583532,6</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Building D Elevator near Library</name>
+			<LookAt>
+				<longitude>-122.1497217467298</longitude>
+				<latitude>47.58380555558892</latitude>
+				<altitude>0</altitude>
+				<heading>-0.7104743913167078</heading>
+				<tilt>0.4598227420204806</tilt>
+				<range>92.31421570605328</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_Elevator-Icon-0820152848</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1499305555556,47.58379699999999,6</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Building L Elevator near L120</name>
+			<LookAt>
+				<longitude>-122.1489023474512</longitude>
+				<latitude>47.585771856958</latitude>
+				<altitude>7.436948273908103</altitude>
+				<heading>-0.7098694644272275</heading>
+				<tilt>0.4598742733126264</tilt>
+				<range>82.68889492010089</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_Elevator-Icon-0820152848</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1488861111111,47.58578900000001,6</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Building N Elevator near N250</name>
+			<LookAt>
+				<longitude>-122.14983251254</longitude>
+				<latitude>47.58209120853621</latitude>
+				<altitude>8.555758179155978</altitude>
+				<heading>-0.710556175415737</heading>
+				<tilt>0.45987454857494</tilt>
+				<range>86.50660151368643</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_Elevator-Icon-0820152848</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1502388888889,47.58200833333333,9.999999999999998</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Building R Elevator near R100</name>
+			<LookAt>
+				<longitude>-122.149771032334</longitude>
+				<latitude>47.58603803376008</latitude>
+				<altitude>11.98393965162593</altitude>
+				<heading>-0.7105107616098595</heading>
+				<tilt>0.4598740174820968</tilt>
+				<range>79.14072918006187</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_Elevator-Icon-0820152848</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1500611111111,47.58609166666668,9.999999999999998</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
